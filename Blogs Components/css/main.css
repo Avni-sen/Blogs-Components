@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+*:focus {
+  outline: none;
+}
+
+body {
+  background: #F7F8FC;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.components--blog-card {
+  max-width: 1065px;
+}
+.components--blog-card ul {
+  display: flex;
+  margin: 0 -25px;
+}
+.components--blog-card ul li {
+  padding: 0 30px;
+  border-radius: 10px;
+  display: flex;
+}
+.components--blog-card ul li a {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  max-width: 323px;
+  min-height: 471px;
+  border-radius: 10px;
+  box-shadow: 0 34px 36px -14px #e9ecf9;
+}
+.components--blog-card ul li a img {
+  width: 323px;
+  height: 213px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.components--blog-card ul li a .inner {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 25px 25px 30px;
+}
+.components--blog-card ul li a .inner .category {
+  font-size: 12px;
+  color: #fff;
+  background: var(--color);
+  padding: 2px 10px;
+  border-radius: 15px;
+  margin-bottom: 9px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.components--blog-card ul li a .inner .title {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #10182F;
+  margin-bottom: 10px;
+}
+.components--blog-card ul li a .inner .description {
+  font-size: 16px;
+  color: #10182F;
+  line-height: 20px;
+  margin-bottom: 40px;
+}
+.components--blog-card ul li a .inner .author {
+  display: flex;
+  align-items: center;
+  margin-top: auto;
+}
+.components--blog-card ul li a .inner .author img {
+  width: 45px;
+  height: 45px;
+  border-radius: 45px;
+  margin-right: 10px;
+}
+.components--blog-card ul li a .inner .author .author-inner {
+  display: flex;
+  flex-direction: column;
+}
+.components--blog-card ul li a .inner .author .author-inner .author-name {
+  color: #10182F;
+  font-size: 16px;
+  font-weight: bold;
+}
+.components--blog-card ul li a .inner .author .author-inner .date {
+  font-size: 14px;
+  color: #545D7A;
+}
+
+/*# sourceMappingURL=main.css.map */
